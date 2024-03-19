@@ -1,0 +1,128 @@
+
+.body {
+    background-color:#edeade;
+}
+
+
+
+.titulo{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+}
+
+.titulo h1{
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 50px;
+    color: #adeada;
+
+}
+
+.titulo h2{
+    
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    font-weight:lighter ;
+    font-style: normal;
+
+}
+
+.titulo h3 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight:lighter ;
+    font-style: normal;
+
+}
+
+a {
+    transition: transform .2s;
+    text-decoration: none;
+}
+
+a:hover {
+    
+    color: #000000;
+    font-weight: 400;
+}
+
+.nav {
+    
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight:lighter ;
+    color: #000000;
+}
+
+.galeria{
+    
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 50px;
+    padding-bottom: 180px;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.galeria img{
+    
+    transition: transform .2s;
+    max-width: 400px;
+    padding: 1rem;
+    
+}
+
+.galeria img:hover {
+    transform: scale(2);
+}
+
+.footer {
+   
+    padding: 5px;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:lighter ;
+    font-style: normal;
+    font-size: 15px;
+    background-color: #cdeadc;
+}
+
+
+.links {
+    padding: 50px;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight:lighter ;
+    color: #000000;
+}
+
+.formulario {
+    
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 10%;
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.enviar {
+    width: 15%;
+    left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
