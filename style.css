@@ -1,7 +1,8 @@
 
+
 .body {
-    
-    
+    height: 5000px;
+    margin:0;
     background-color:#edeade;
 }
 
@@ -68,7 +69,8 @@ a:hover {
     flex-flow: wrap;
     justify-content: center;
     padding: 50px;
-    padding-bottom: 180px;
+    margin-bottom: 200px;
+    height: auto;
     animation: slide 20s infinite alternate ease-in-out;
 }
 
@@ -83,15 +85,18 @@ a:hover {
 }
 
 .galeria img:hover {
-    transform: scale(2.5);
+    transform: scale(2);
     border-width: 1px; 
     
 }
 
 
-.footer {
-   
-    padding: 5px;
+.footer-c {
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     text-align: center;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
@@ -99,6 +104,28 @@ a:hover {
     font-style: normal;
     font-size: 15px;
     background-color: #cdeadc;
+}
+
+.footer-i {
+    
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:lighter ;
+    font-style: normal;
+    font-size: 15px;
+    background-color: #cdeadc;
+}
+
+.copy {
+    padding-top: 15px;
+}
+
+.dev {
+    padding-bottom: 15px;
 }
 
 /*
@@ -123,11 +150,46 @@ a:hover {
     font-size: 20px;
     font-weight:lighter ;
     color: #000000;
+    width: auto;
 }
 
 .icon {
-    width: 50px;
-    align-items: auto;
+    
+    width: 40px;
+    padding-right: 40px;
 }
 
+.link {
+    width: 300px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 14px;
+    
+}
 
+/*
+    DETALLES
+*/
+
+.detalles {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.detalles img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.detalles b {
+    position: relative;
+    bottom: 100px;
+    margin-left: 20px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight:lighter ;
+    font-style: normal;
+}
