@@ -1,5 +1,7 @@
 
 .body {
+    
+    
     background-color:#edeade;
 }
 
@@ -71,16 +73,21 @@ a:hover {
 }
 
 .galeria img{
-    
-    transition: transform .2s;
+    opacity: 1;
+    border: 0px solid black; /* Añade un borde de 2px de ancho y color negro */
+    transition: transform .2s;   
     max-width: 400px;
-    padding: 1rem;
+    margin: 1rem;
+    
     
 }
 
 .galeria img:hover {
-    transform: scale(2);
+    transform: scale(2.5);
+    border-width: 1px; 
+    
 }
+
 
 .footer {
    
@@ -94,9 +101,22 @@ a:hover {
     background-color: #cdeadc;
 }
 
+/*
+  CONTACTO 
+*/
+
+.contacto {
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
 
 .links {
-    padding: 50px;
+    
+    padding-top: 2%;
+    
+    display: inline-flex;
+    align-items: center;
     text-align: center;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
@@ -105,24 +125,9 @@ a:hover {
     color: #000000;
 }
 
-.formulario {
-    
-    position: relative;
-    margin-top: 100px;
-    margin-bottom: 10%;
-    margin-left: 500px;
-    margin-right: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
+.icon {
+    width: 50px;
+    align-items: auto;
 }
 
-.enviar {
-    width: 15%;
-    left: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
