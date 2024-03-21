@@ -197,3 +197,63 @@ a:hover {
 b.dos {
     margin-left: 500px;
 }
+
+@media screen and (max-width:940px){
+
+    
+    
+    .detalles {
+       width: 0; 
+       
+       display: flexbox;
+       margin-left: 0;
+        
+    }
+
+    .detalles img {  
+
+        width: 150px;
+        height: auto;
+        position: absolute;
+        right: -50px;
+        top: -40px;  
+
+    }
+
+    .detalles b {
+        
+        width: 200px;
+        height: 200px;
+        font-size: 10px;
+        position: relative;
+        left: 120px;
+        top: -80px;
+        margin-left: 0px;
+
+    }
+
+    .detalles b.dos {
+        position: relative;
+        left: 500;
+    }
+
+    
+    
+
+    .contacto {
+        width: auto;
+    }
+
+    .link {
+        width: auto;
+    }
+
+    .links {
+        transform: scale(0.8);
+    }
+
+    .footer-c {
+        width: 360px;
+    }
+    
+}
