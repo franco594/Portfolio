@@ -234,7 +234,11 @@ b.dos {
     */
 
     .body {
+
         margin: 0;
+        align-items: center;
+        text-align: center;
+        
     }
 
     .galeria {
@@ -247,8 +251,7 @@ b.dos {
     }
 
     .galeria img {
-        position: relative;
-        right: 28px;
+        position: center; 
         scale: 0.6;
         margin: 0;
         height: auto;
